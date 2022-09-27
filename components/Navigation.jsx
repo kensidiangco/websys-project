@@ -27,7 +27,7 @@ export default function Navigation() {
 
                 <div className="hidden md:flex">
                     <Link href="/About" passHref>
-                        <span className="p-2 font-bold cursor-pointer">About us</span>
+                        <span className="p-2 font-bold cursor-pointer">About</span>
                     </Link>
                 </div>
                 {!open &&

@@ -1,3 +1,4 @@
+import Footer from '../components/Footer'
 import Navigation from '../components/Navigation'
 import '../styles/globals.css'
 
@@ -6,6 +7,7 @@ function MyApp({ Component, pageProps }) {
     <div className='bg-gray-50'>
       <Navigation />
       <Component {...pageProps} />
+      <Footer />
     </div>
   )
 }
