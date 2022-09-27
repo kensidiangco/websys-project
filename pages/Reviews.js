@@ -8,11 +8,12 @@ function Reviews() {
         <title>Reviews</title>
       </Head>
 
-      <div className='px-16 py-8 flex justify-center'>
+      <div className='p-none xl:px-16 xl:py-8 xl:flex justify-center'>
         <div className="p-4 flex flex-col gap-4 w-full">
+
           <p className="text-3xl font-bold">Reviews:</p>
 
-          <div className="mx-20 p-4 bg-white rounded-md shadow-md flex flex-col gap-px">
+          <div className="mx-none xl:mx-20 p-4 bg-white rounded-md shadow-md flex flex-col gap-px">
             <span>
               <p className="text-sm text-gray-600">Python review</p>
               <p className="text-sm text-gray-600 float-right">September 26, 2022</p>
@@ -27,7 +28,7 @@ function Reviews() {
             </span>
           </div>
 
-          <div className="mx-20 p-4 bg-white rounded-md shadow-md flex flex-col gap-px">
+          <div className="mx-none xl:mx-20 p-4 bg-white rounded-md shadow-md flex flex-col gap-px">
             <span>
               <p className="text-sm text-gray-600">HTML review</p>
               <p className="text-sm text-gray-600 float-right">September 21, 2022</p>
@@ -43,7 +44,7 @@ function Reviews() {
           </div>
         </div>
 
-        <div className="bg-white rounded-md p-4 shadow-xl flex flex-col gap-6 w-96 flex-none">
+        <div className="m-6 xl:m-none bg-white rounded-md p-4 shadow-xl flex flex-col gap-6 max-w-96 w-auto flex-none">
           <p className="text-xl font-bold">Create a review</p>
           <form className="flex flex-col gap-2">
             <select className="border p-2 rounded-md bg-gray-200">

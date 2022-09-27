@@ -20,7 +20,7 @@ export default function Navigation() {
                     </Link>
 
                     <Link href="/ELearning" passHref>
-                        <span className="p-2 font-bold cursor-pointer">E-Learning</span>
+                        <span className="p-2 font-bold cursor-pointer hidden md:flex">E-Learning</span>
                     </Link>
                 </div>
 
@@ -42,12 +42,15 @@ export default function Navigation() {
                 }
             </div>
             {open &&
-                <div className="md:hidden p-4 flex flex-col gap-2 items-center bg-green-800 text-white">
-                    <Link href="#" passHref>
+                <div className="md:hidden p-4 flex flex-col gap-2 items-center bg-black text-white">
+                    <Link href="/ELearning" passHref>
+                        <p className="p-2 font-bold cursor-pointer">E-Learning</p>
+                    </Link>
+                    <Link href="/About" passHref>
                         <p className="p-2 font-bold cursor-pointer">About us</p>
                     </Link>
-                    <Link href="#" passHref>
-                        <p className="p-2 font-bold cursor-pointer">Dark Mode</p>
+                    <Link href="/Reviews" passHref>
+                        <p className="p-2 font-bold cursor-pointer">Make a review</p>
                     </Link>
                 </div>}
         </>
