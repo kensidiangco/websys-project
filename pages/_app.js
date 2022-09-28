@@ -4,7 +4,7 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className='bg-gray-50'>
+    <div className='bg-gray-50 font-mono'>
       <Navigation />
       <Component {...pageProps} />
       <Footer />

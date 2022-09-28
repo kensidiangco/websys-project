@@ -57,7 +57,7 @@ function Reviews() {
               <option className="">Other...</option>
             </select>
             <input type="text" placeholder="Name" className="border p-2 rounded-md bg-gray-200 placeholder:text-gray-600" />
-            <textarea placeholder="Message..." className="p-2 bg-gray-200" rows="12" cols="50" maxlength="500">
+            <textarea placeholder="Message..." className="p-2 bg-gray-200" rows="12" cols="50" maxLength="500">
             </textarea>
             <input type="button" value="Submit" className="bg-blue-600 text-white cursor-pointer p-2 rounded-md"/>
           </form>

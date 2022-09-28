@@ -16,12 +16,12 @@ export default function Navigation() {
             <div className="flex gap-2 justify-between items-center p-2 bg-black text-white shadow-md px-6">
                 <div className="flex gap-6">
                     <Link href="/" passHref>
-                        <span className="p-2 font-bold cursor-pointer">Home</span>
+                        <span className="p-2 font-bold cursor-pointer">E-Learning</span>
                     </Link>
 
-                    <Link href="/ELearning" passHref>
+                    {/* <Link href="/ELearning" passHref>
                         <span className="p-2 font-bold cursor-pointer hidden md:flex">E-Learning</span>
-                    </Link>
+                    </Link> */}
                 </div>
 
 
