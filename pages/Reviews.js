@@ -12,7 +12,7 @@ function Reviews() {
   const [message, setMessage] = useState('')
 
   useEffect(() => {
-    axios.get('http://127.0.0.1:8000/api/reviews/')
+    axios.get(`${process.env.BACKEND_API_BASE}/api/reviews`)
     .then(res => {
       setReviews(res.data)
     })
@@ -24,7 +24,7 @@ function Reviews() {
 
   const handleReviewPost = (e) => {
     e.preventDefault()
-    axios.post('http://127.0.0.1:8000/api/review/create', {
+    axios.post(`${process.env.BACKEND_API_BASE}/api/review/create`, {
       topic,
       name,
       email,
