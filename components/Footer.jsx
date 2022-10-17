@@ -7,7 +7,7 @@ function Footer() {
         <Link href="/Reviews">
             <p className="text-2xl font-bold cursor-pointer">Make a Review</p>
         </Link>
-        <p className="text-sm">Team X7 Websystem Project @2022 | Saint Jude College Manila</p>
+        <p className="text-sm"><a href="/About"> Team X7 Websystem Project @2022 </a> | Saint Jude College Manila</p>
     </div>
   )
 }

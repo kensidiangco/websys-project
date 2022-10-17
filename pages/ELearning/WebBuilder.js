@@ -20,6 +20,8 @@ function WebBuilder() {
   const [js, setJs] = useState('')
   const [srcDoc, setSrcDoc] = useState('')
 
+  const [langguageWillUse, setLanguageWillUse] = useState([])
+
   useEffect(() => {
     const timeOut = setTimeout(() => {
       setSrcDoc(`
