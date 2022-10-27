@@ -19,7 +19,7 @@ export default function Home() {
 
           <div className="text-center">
             <Link href="/ELearning" passHref>
-              <p className={`text-5xl font-bold cursor-pointer backdrop-blur-xl hover:backdrop-blur-lg p-4 rounded-xl shadow-xl  text-white ${styles.text} border`}>Start</p>
+              <p className={`text-5xl font-bold cursor-pointer backdrop-blur-xl hover:backdrop-blur-lg p-4 rounded-xl shadow-xl  text-white ${styles.text} border`}>Start Learning</p>
             </Link>
           </div>
         </div>
