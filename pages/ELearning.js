@@ -11,7 +11,7 @@ function ELearning() {
       </Head>
       <div className="min-h-half-screen flex flex-col p-8">
         <div className="flex">
-          <p className="text-2xl font-bold p-2 sm:bg-blue-700 sm:text-white rounded-xl">
+          <p className="text-2xl font-bold p-2 sm:bg-gray-600 shadow-xl sm:text-white rounded-xl">
             CheatSheets
           </p>
         </div>
@@ -63,7 +63,7 @@ function ELearning() {
       </div>
       <div className="min-h-half-screen flex flex-col p-8 gap-6">
       <div className="flex">
-          <p className="text-2xl font-bold p-2 sm:bg-blue-700 sm:text-white rounded-xl">
+          <p className="text-2xl font-bold p-2 sm:bg-gray-600 shadow-xl sm:text-white rounded-xl">
             Code Playground
           </p>
         </div>
