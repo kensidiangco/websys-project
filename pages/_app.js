@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps, router }) {
           opacity: 0
         }
       }}>
-        <div className='bg-gray-200 font-mono'>
+        <div className='bg-gray-200'>
           <Navigation />
           <Component {...pageProps} />
           <Footer />
