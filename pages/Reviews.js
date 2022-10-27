@@ -7,8 +7,8 @@ function Reviews() {
   const { data: session } = useSession()
   const [reviews, setReviews] = useState()
   const [topic, setTopic] = useState('')
-  const [name, setName] = useState(session ? session.user.name : '')
-  const [email, setEmail] = useState(session ? session.user.email : '')
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
 
   useEffect(() => {
@@ -21,6 +21,13 @@ function Reviews() {
     })
 
   }, [reviews])
+
+  useEffect(() => {
+    if(session) {
+      setName(session.user.name)
+      setEmail(session.user.email)
+    }
+  }, [session])
 
   const handleReviewPost = (e) => {
     e.preventDefault()
