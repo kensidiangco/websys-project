@@ -32,7 +32,7 @@ export default function Home() {
                 <p className="text-xl pt-2 text-gray-600">Let us commit in deep learnings</p>
               </span>
                 <Link href="/ELearning" passHref>
-                  <p className="cursor-pointer text-center bg-gray-400 hover:bg-gray-300 text-white transition transition-delay-1 shadow-xl font-bold rounded-md py-2">Start Learning</p>
+                  <p className="cursor-pointer text-center bg-gray-600 hover:bg-gray-500 text-white transition transition-delay-1 shadow-xl font-bold rounded-md py-2">Start Learning</p>
                 </Link>
             </div>
 
