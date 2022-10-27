@@ -64,6 +64,11 @@ function WebBuilder() {
         
       </div>
       <div className="h-half-screen">
+        {!html && !css && !js && 
+          <span className="flex justify-center">
+            <p className="text-center font-bold text-[100px]">👇OUTPUT👇</p>
+          </span>
+        }
         <iframe 
           srcDoc={srcDoc}
           title="output"

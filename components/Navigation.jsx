@@ -18,9 +18,12 @@ export default function Navigation() {
     return (
         <>
             <div className="flex gap-2 justify-between items-center p-2 bg-black text-white shadow-md px-6 xl:sticky xl:top-0 z-50">
-                <div className="flex gap-6">
+                <div className="flex gap-2">
                     <Link href="/" passHref>
-                        <span className="p-2 font-bold cursor-pointer">E-Learning</span>
+                        <span className="p-2 font-bold cursor-pointer">Home</span>
+                    </Link>
+                    <Link href="/ELearning/WebBuilder" passHref>
+                        <span className="p-2 font-bold cursor-pointer">Web building</span>
                     </Link>
 
                     {/* <Link href="/ELearning" passHref>
